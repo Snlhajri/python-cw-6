@@ -13,9 +13,10 @@ person["country"]="kuwait"
 print(len(person))
 person["hoppies"].append("cooking")
 def check_hobbies(person):
-    if person ["hoppies"] > "three hobbies":
+    if len(person["hoppies"])> 3:
        print("wow you are amaz")
     else:
        print("you are not amaz")
+check_hobbies(person)
 
 
